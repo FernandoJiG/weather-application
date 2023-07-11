@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+}
+
+.container{
+  background-color: #282c34;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#buscadorText{
+  font-size: x-large;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+}
+#buscadorText:focus {
+  outline: none;
+}
+#buscadorLocation, #buscadorIcon{
+  padding: 10px;
+  width: fit-content;
+  font-size: 25px;
+
+}
+.buscador{
+  background-color: #ffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+}
+
